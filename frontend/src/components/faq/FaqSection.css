@@ -1,0 +1,24 @@
+.course-details-container {
+    padding-top: 150px;
+    border-radius: 5px; 
+    overflow: hidden; 
+    margin-bottom: 20px; 
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1); 
+  }
+  
+  .course-details-header {
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+  .course-details-content p{
+    color: black;
+  }
+  .course-details-content {
+    
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.5; 
+  }
+.faq-container-last{
+    margin-left: 20px;
+}

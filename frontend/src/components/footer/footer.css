@@ -1,0 +1,39 @@
+.footer {
+    background: linear-gradient(to bottom, #1e1e1e, #4b0082);
+    color: white;
+    padding: 30px 0; 
+    text-align: center; 
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-start; 
+    padding: 0 50px; 
+  }
+  
+  
+  .contact-info, .address-info {
+      text-align: left;
+      flex: 1; 
+}
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons > * {
+    margin: 0 10px; 
+    font-size: 1.2em;
+  }
+  
+  .copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px; 
+  }
+  
+  .legal p {
+    margin: 0 10px; 
+  }

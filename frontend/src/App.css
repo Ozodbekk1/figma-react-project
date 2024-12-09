@@ -1,0 +1,50 @@
+body{
+  margin: 0%;
+  padding: 0%;
+}
+
+.navbar{
+  text-align: center;
+  padding-top: 10px;
+}
+.navbar a{
+  text-decoration: none;
+  padding-left: 12px;
+  
+  font-size: 20px;
+  color: aliceblue;
+}
+.container{
+  margin-top: 12%;
+  margin-left: 8%;
+  font-size: 47px;
+  color: white;
+}
+.main-wrapper{
+  height: 650px;
+  width: 100%;
+  background-image: url('/Home.png'), radial-gradient(circle at 100%, #003c68, #01091a 100%, #010212 100%, #010c1f 100%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right -20% bottom 40%;
+}
+.home-dtail{
+  display: block;
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ececec;
+  background-color: #7d48e2;
+  width: 1300px;
+  height: 200px;
+  border-style: solid;
+  border-radius: 18px;
+  bottom: 20px;
+  border-color:#7d48e2 ;
+  right: 60px;
+}
+.home-dtail h3, p {
+  margin-left: 40px;
+}
